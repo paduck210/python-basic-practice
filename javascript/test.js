@@ -42,3 +42,44 @@ if (name1[0] === 't') {
 } else {
   console.log('No Match')
 }
+
+
+//Array
+var students = [ "john", "Paul", "Ringo" ]
+console.log(students)
+
+//Array.length
+console.log(students.length)
+
+//Array.element
+console.log(students[0])
+
+//Array. add element
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits)
+fruits.push("Kiwi");
+console.log(fruits)
+
+
+//Array + match with exsited var
+var name1 = "tom"
+var name2 = "sam"
+
+var arr = [name1, name2,"paul","Paduck"]
+arr.forEach(function(name) {
+  console.log(name)
+})
+
+
+//define
+
+function fullName(x,y) {
+  var full = x + ' ' + y
+  return full
+}
+
+var name1 = "Harry"
+var name2 = "Poter"
+
+var result = fullName(name1,name2)
+console.log(result)
