@@ -2,8 +2,7 @@
 import sqlite3
 
 #connect to Library
-conn = sqlite3.connect('emaildb.sqlite')
-cur = conn.cursor()
+
 
 #if there is existing table,delete it / in case of none table, this code do notihg
 cur.execute('DROP TABLE IF EXISTS Counts')
