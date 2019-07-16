@@ -14,7 +14,7 @@ class ToScrapeSpiderXPath(scrapy.Spider):
                 'text': quote.xpath('./span[@class="text"]/text()').extract_first(),
                 'author': quote.xpath('.//small[@class="author"]/text()').extract_first(),
                 'tags': quote.xpath('.//div[@class="tags"]/a[@class="tag"]/text()').extract(),
-                'url': quote.xpath('.//a/@href').extract_first()
+                'url': 'http://quotes.toscrape.com/' + quote.xpath('.//a/@href').extract_first()
             }
 
         next_page_url = response.xpath('//li[@class="next"]/a/@href').extract_first()
