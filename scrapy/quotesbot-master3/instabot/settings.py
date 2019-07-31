@@ -64,6 +64,9 @@ CONCURRENT_REQUESTS = 32
 BOT_NAME = 'instabot'
 SPIDER_MODULES = ['instabot.spiders']
 NEWSPIDER_MODULE = 'instabot.spiders'
+#
+# FEED_FORMAT = "csv"
+# FEED_URI = "instabot.csv"
 
 
 ITEM_PIPELINES = {
