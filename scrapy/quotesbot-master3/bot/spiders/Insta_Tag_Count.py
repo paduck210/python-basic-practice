@@ -14,7 +14,7 @@ class ToScrapeInstaXPath(scrapy.Spider):
     ]
     tag_search_url = 'https://www.instagram.com/explore/tags/'
     insta_id = input('jung210_a')
-    insta_pw = getpass.getpass('14234yhj')
+    insta_pw = getpass.getpass('password')
     keyword  = input('montreal')
 
     def __init__(self):
