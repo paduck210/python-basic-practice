@@ -10,7 +10,5 @@ class InstaTagCount(scrapy.Item):
     # define the fields for your item here like:
     tag_name = scrapy.Field()
     tag_count = scrapy.Field()
-    tag_date = scrapy.Field()    
+    tag_date = scrapy.Field()
     pass
-
-

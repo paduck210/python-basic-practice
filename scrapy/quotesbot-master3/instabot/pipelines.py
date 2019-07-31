@@ -14,7 +14,7 @@ import pymongo
 
 
 class MongoDBPipeline(object):
-    
+
    def __init__(self):
        connection = pymongo.MongoClient(
            settings['MONGODB_SERVER'],

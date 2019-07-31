@@ -46,3 +46,6 @@ class ToScrapeInstaXPath(scrapy.Spider):
         date = str(datetime.now())
         item['tag_date'] = a[0:10]
         yield request
+
+
+

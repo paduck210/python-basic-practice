@@ -75,8 +75,6 @@ MONGODB_DB = "Insta_Tag_Crawling"
 MONGODB_COLLECTION = "Insta_Tag_Count"
 
 
-
-
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
